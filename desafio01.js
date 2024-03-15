@@ -10,9 +10,9 @@
 // }
 
 
-const nota1 = 5;
-const nota2 = 5;
-const nota3 = 5;
+const nota1 = 4;
+const nota2 = 4;
+const nota3 = 4;
 
 const media = (nota1 + nota2 + nota3)/3;
 
