@@ -1,4 +1,7 @@
-// Escreva um código em JavaScript que resolva o problema descrito no livro Lógica de Programação I, p. , em que temos que obter as 3 notas de um aluno, calcular a média (>= 7) e exibir se o aluno foi aprovado, reprovado (<= 4) ou se ficou para exame (<= 5, <= 6). Não é necessário ler as notas, você pode defini-las com variáveis.
+// Escreva um código em JavaScript que resolva o problema descrito no livro Lógica de 
+//Programação I, p. , em que temos que obter as 3 notas de um aluno, calcular a média (>= 7) 
+//e exibir se o aluno foi aprovado, reprovado (<= 4) ou se ficou para exame (<= 5, <= 6). 
+//Não é necessário ler as notas, você pode defini-las com variáveis.
 
 // Você precisará utilizar uma estrutura de decisão composta, como a seguir:
 // if (condicao1) {
