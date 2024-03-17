@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio IMC</title>
+	<style>
+		body{
+			background-color: rgb(178, 253, 253);
+		}
+	</style>
 </head>
 <body>
     <script>
         const nome = prompt("Digite o seu nome: ");
         const peso = parseInt(prompt("Digite o seu peso: "));
-        const altura = parseInt(prompt("Digite a sua altura: "));
+        const altura = parseFloat(prompt("Digite a sua altura: "));
 
-        const imc = peso/(altura*altura);
-        alert(`imc é igual: ${imc}`);
+        const imc = peso/(altura**2);
+        alert(`${nome} seu imc é igual: ${imc.toFixed(2)}`);
 
         if(imc < 18.5){
-		alert("Magreza.");
+		alert("Abaixo do peso.");
 	}
 	else{
-		if(imc >= 18.5 && imc < 25.0){
-			alert("Saudavel.");
+		if(imc >= 18.5 && imc < 24.9){
+			alert("Peso normal.");
 		}
 		else{
-			if(imc >= 25.0 && imc < 30.0){
+			if(imc >= 25.0 && imc < 29.9){
 				alert("Sobrepeso.");
 			}
 			else{
-				if(imc >= 30.0 && imc < 35.0){
+				if(imc >= 30.0 && imc < 34.9){
 					alert("Obesidade Grau I.");
 				}
 				else{
-					if(imc >= 35.0 && imc < 40.0){
+					if(imc >= 35.0 && imc < 39.9){
 						alert("Obseidade Grau II (Severa).");
 					}
 					else{
