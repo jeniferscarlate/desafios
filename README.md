@@ -3,9 +3,9 @@
 ## Desafio 01 👩🏻‍💻
 
 Escreva um código em JavaScript que resolva o problema descrito no 
-livro Lógica de Programação I, p., em que temos que obter as 3 notas   
-de um aluno, calcular a média (>= 7) e exibir se o aluno foi aprovado, 
-reprovado (<= 4) ou se ficou para exame (>= 5, <= 6).   
+livro Lógica de Programação I, p., em que temos que obter as 3 notas de um aluno,   
+calcular a média (>= 7) e exibir se o aluno foi aprovado, 
+reprovado (<= 4) ou se ficou para exame (>= 5).   
 Não é necessário ler as notas, você pode defini-las com variáveis.
 
  Você precisará utilizar uma estrutura de decisão composta, como a seguir:
@@ -27,8 +27,8 @@ Crie um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
 
 Orientações:
 
-Utilize o método prompt() do objeto window para realizar a leitura dos dados de entrada.  
-Utilize a fórmula IMC = peso / altura² para calcular o IMC.  
+Utilize o método *prompt()* do objeto window para realizar a leitura dos dados de entrada.  
+Utilize a fórmula **IMC = peso / altura²** para calcular o IMC.  
 Utilize a estrutura if-else para classificar o IMC de acordo com a tabela da OMS:  
 
 IMC   Indicação  
