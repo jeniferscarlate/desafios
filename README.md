@@ -39,3 +39,23 @@ Abaixo de 18,5 | Abaixo do peso
 30,0 - 34,9    | Obesidade grau I  
 35,0 - 39,9    | Obesidade grau II  
 Acima de 40,0  | Obesidade grau III  
+
+## Desafio 03 👩🏻‍💻
+
+Crie um conversor de temperatura entre as escalas Celsius, Fahrenheit e Kelvin. O usuário deve digitar a   
+temperatura a ser convertida, a escala da temperatura atual e a escala para o qual o valor deve ser convertido.  
+
+Entradas (3): valor atual da temperatura, escala atual da temperatura, escala para exibição (conversão).
+
+Saída (1): valor convertido na escala de conversão.
+
+**Fórmulas:**
+
+De | Para | Fórmulas
+---| -----| --------
+Celsius| Fahrenheit| tF = (tC * 9/5) + 32
+Celsius| Kelvin| tK = tC + 273.15
+Fahrenheit| Celsius| tC = (tF - 32) * 5/9
+Fahrenheit| Kelvin| tK = (tF + 459.67) * 5/9
+Kelvin| Celsius| tC = tK - 273.15
+Kelvin| Fahrenheit| tF = tK * 9/5 - 459.67
