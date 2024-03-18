@@ -19,32 +19,24 @@
         const imc = peso/(altura**2);
         alert(`${nome} seu imc é igual: ${imc.toFixed(2)}`);
 
-        if(imc < 18.5){
-		alert("Abaixo do peso.");
-	}
-	else{
-		if(imc >= 18.5 && imc < 24.9){
+		if(imc < 18.5){
+			alert("Abaixo do peso.");
+		}
+		else if(imc >= 18.5 && imc < 24.9){
 			alert("Peso normal.");
 		}
-		else{
-			if(imc >= 25.0 && imc < 29.9){
-				alert("Sobrepeso.");
-			}
-			else{
-				if(imc >= 30.0 && imc < 34.9){
-					alert("Obesidade Grau I.");
-				}
-				else{
-					if(imc >= 35.0 && imc < 39.9){
-						alert("Obseidade Grau II (Severa).");
-					}
-					else{
-						alert("Obesidade Grau III (Morbida).");
-					}
-				}
-			}
+		else if(imc >= 25.0 && imc < 29.9){
+			alert("Sobrepeso.");
 		}
-	}
+		else if(imc >= 30.0 && imc < 34.9){
+			alert("Obesidade Grau I.");
+		}
+		else if(imc >= 35.0 && imc < 39.9){
+			alert("Obseidade Grau II (Severa).");
+		}
+		else{
+			alert("Obesidade Grau III (Morbida).");
+		}						
     </script>
 </body>
 </html>
