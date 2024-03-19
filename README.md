@@ -38,7 +38,7 @@ Abaixo de 18,5| Abaixo do peso
 25,0 - 29,9| Sobrepeso  
 30,0 - 34,9| Obesidade grau I  
 35,0 - 39,9| Obesidade grau II  
-Acima de 40,0| Obesidade grau III  
+Acima de 40,0|Obesidade grau III  
 
 ## Desafio 03 👩🏻‍💻
 
