@@ -8,39 +8,32 @@
 <body>
     <script>
         const temperatura = parseFloat(prompt("Digite a temperatura a ser convertida: "));
-        const escalaTempAtual = prompt("Digite a escala da temperatura atual: ");
-        const escalaTempeConvert = prompt("Digite a escala que o valor deve ser convertido");
-
-        // escalaTempAtual[0].toLowerCase();
-        // escalaTempeConvert[0].toLowerCase();
-
-        // alert(escalaTempeConvert);
-        // alert(escalaTempAtual);
-
+        const escalaTempAtual = prompt("Digite em letras minúsculas a escala da temperatura atual: ");
+        const escalaTempeConvert = prompt("Digite em letras minúsculas a escala que o valor deve ser convertido: ");
 
         if(escalaTempAtual == 'celsius' && escalaTempeConvert == 'fahrenheit'){
             const temp1 =  (temperatura*9/5) + 32;
-            alert(`A temperatura ${temperatura}°C em Fahrenheit é ${temp1}°F`);
+            alert(`A temperatura ${temperatura} °C em Fahrenheit é ${temp1} °F`);
         }
         else if(escalaTempAtual == 'celsius' && escalaTempeConvert == 'kelvin'){
             const temp1 = temperatura + 273.15;
-            alert(`A temperatura ${temperatura}°C em Kelvin é ${temp1}K`);
+            alert(`A temperatura ${temperatura} °C em Kelvin é ${temp1} K`);
         }
         else if(escalaTempAtual == 'fahrenheit' && escalaTempeConvert == 'celsius'){
             const temp1 = (temperatura - 32)*5/9;
-            alert(`A temperatura ${temperatura}°F em Celsius é ${temp1.toFixed(4)}°C`);
+            alert(`A temperatura ${temperatura} °F em Celsius é ${temp1.toFixed(4)} °C`);
         }
         else if(escalaTempAtual == 'fahrenheit' && escalaTempeConvert == 'kelvin'){
-            const temp1 = (temperatura - 32)* 5/9 + 273.15;
-            alert(`A temperatura ${temperatura}°F em Kelvin é ${temp1.toFixed(4)}°C`);
+            const temp1 = (temperatura + 459.67)* 5/9;
+            alert(`A temperatura ${temperatura} °F em Kelvin é ${temp1.toFixed(4)} K`);
         }
         else if(escalaTempAtual == 'kelvin' && escalaTempeConvert == 'celsius'){
             const temp1 = (temperatura - 273.15);
-            alert(`A temperatura ${temperatura} K em Graus Celsius é ${temp1}°C`);
+            alert(`A temperatura ${temperatura} K em Graus Celsius é ${temp1} °C`);
         }
         else if(escalaTempAtual == 'kelvin' && escalaTempeConvert == 'fahrenheit'){
-            const temp1 = (temperatura - 273.15)* 9/5 +32;
-            alert(`A temperatura ${temperatura} K em graus Fahrenheit é ${temp1.toFixed(2)}°F`);
+            const temp1 = (temperatura * 9/5) - 459.67;
+            alert(`A temperatura ${temperatura} K em graus Fahrenheit é ${temp1.toFixed(2)} °F`);
         }
     </script>
 </body>
